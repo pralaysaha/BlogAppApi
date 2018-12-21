@@ -8,12 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/pralaysaha/BlogApp.git"
+    "url": "git+ssh://git@github.com/pralaysaha/BlogAppAPI.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pralaysaha/BlogApp/issues"
+    "url": "https://github.com/pralaysaha/BlogAppAPI/issues"
   },
-  "homepage": "https://github.com/pralaysaha/BlogApp#readme"
+  "homepage": "https://github.com/pralaysaha/BlogAppAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  }
 }
